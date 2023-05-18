@@ -1,0 +1,32 @@
+.header::before{
+    content: "";
+    background-image: url("/images/hero.png");
+    background-repeat: no-repeat;
+    width: 758px;
+    height: 1007px;
+    background: url(9AU800DTrV.jpg);
+    border-radius: 0px 0px 0px 107px;
+}
+.header__content{
+    margin-top: 32px;
+}
+.logo{
+    margin-right: 123px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+.nav__list>li:not(:last-child){
+    margin-right: 60px;
+}
+.nav__list>li>a{
+    text-decoration: none;
+    color: black;
+}
+.nav__content{}
+.logo{}

@@ -1,0 +1,39 @@
+.instructors{
+    background-image: url("/images/11.svg");
+    background-repeat: repeat-x;
+}
+
+.instructors__content{}
+
+.subtitle{}
+
+.instructors_title{
+    
+    width: 445px;
+    margin: 0 auto;
+}
+
+.instructors__cards{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.card>img{
+    margin-bottom: 38px;
+}
+
+.card{
+    text-align: center;
+
+}
+
+.instructors__cards>.card:not(:last-child){
+    margin-right: 82px;
+    
+}
+
+.card__title{}
+
+.card__subtitle{}

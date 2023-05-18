@@ -1,0 +1,62 @@
+.health{
+    background-image: url('/images/12.svg');
+    background-repeat: repeat-x;
+}
+
+.health__content{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 210px 0 213px 0;
+}
+
+.health__img>img{
+    border-radius: 2px 2px 100px 2px;
+}
+
+.health__img{
+    position: relative;
+}
+
+.health__text{
+    text-align-last: left;
+    width: 502px;
+}
+
+.health__title{
+    margin-bottom: 22px;
+}
+
+.health__desc{
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+
+.health__text>button{
+    width: 170px;
+    height: 58px;
+    background: #FF2625;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.health__img::before {
+    content: "";
+    left: -10%;
+    top: -10%;
+    position: ABSOLUTE;
+    content: "";
+    width: 159px;
+    height: 180px;
+    background-image: url(/images/Dots.svg);
+}
